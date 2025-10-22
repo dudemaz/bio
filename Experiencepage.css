@@ -1,0 +1,81 @@
+/* флекс и разметка основного блока */
+.Experiencepage{
+    width: 100%;
+    height: 1188px;
+    background-color:rgba(255, 218, 116, 1) ;
+}
+.Epxerienceabout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 80px
+}
+/* флекс и разметка основного блока */
+/* стили для блока с названием опыта (флекс блок) */
+.experienceparagraf{
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 4px;
+    color: rgba(27, 27, 27, 0.25);
+}
+.experienceh{
+    color: rgba(27, 27, 27, 1);
+    line-height: 120%;
+    font-weight: 700;
+    font-size: 40px;
+}
+.experienceparagrafofaboutmyskill{
+    color: rgba(27, 27, 27, 1);
+    line-height: 140%;
+    font-size: 17px;
+    font-weight: 400;
+    width: 400px;
+    text-align: center;
+}
+/* стили для блока с названием опыта (флекс блок) */
+/*  родитель  */
+.fatherofcardofexp{
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*  родитель  */
+/* дети +  */
+.cardexp{
+    width: 590px;
+    height: 338px;
+    border: 1px solid rgba(27, 27, 27, 0.25);
+    border-radius: 10px;
+    background-color:rgba(255, 218, 116, 1) ;
+    padding: 40px;
+
+}
+/* дети +  */
+/* их стилизация */
+.someexperienceofh1incard{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color:rgba(27, 27, 27, 1) ;
+}
+.sometextincardaboutexperience{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(27, 27, 27, 1);
+    width: 450px;
+}
+.yearincard{
+    color: rgba(27, 27, 27, 1);
+    line-height: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+/* их стилизация */

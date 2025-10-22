@@ -20,7 +20,16 @@ observer.observe(document.querySelector('.card:nth-child(12)'));
 observer.observe(document.querySelector('.card:nth-child(13)'));
 observer.observe(document.querySelector('.card:nth-child(14)'));
 observer.observe(document.querySelector('.card:nth-child(15)'));
-
+observer.observe(document.querySelector('.gridcard-big'));
+observer.observe(document.querySelector('.gridcardd'));
+observer.observe(document.querySelector('.griidcardd'));
+observer.observe(document.querySelector('.griidcard'));
+observer.observe(document.querySelector('.griiidcard'));
+observer.observe(document.querySelector('.griiidcardd-big'));
+observer.observe(document.querySelector('.cardexp:nth-child(1)'));
+observer.observe(document.querySelector('.cardexp:nth-child(2)'));
+observer.observe(document.querySelector('.cardexp:nth-child(3)'));
+observer.observe(document.querySelector('.cardexp:nth-child(4)'));
 
 
 const observer2 = new IntersectionObserver(entries => {
@@ -34,6 +43,7 @@ observer.observe(document.querySelector('.skil'));
 observer.observe(document.querySelector('.Devskil'));
 observer.observe(document.querySelector('.check'));
 observer.observe(document.querySelector('.projp'));
+observer.observe(document.querySelector('.experienceparagraf'));
 
 
 
@@ -47,6 +57,7 @@ const observer3 = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('.myskil'));
 observer.observe(document.querySelector('.myint'));
 observer.observe(document.querySelector('.porth'));
+observer.observe(document.querySelector('.experienceh'));
 
 
 const observer4 = new IntersectionObserver(entries => {
@@ -58,6 +69,7 @@ const observer4 = new IntersectionObserver(entries => {
 });
 observer.observe(document.querySelector('.aboutskil'));
 observer.observe(document.querySelector('.workp'));
+observer.observe(document.querySelector('.experienceparagrafofaboutmyskill'));
 
 const observer5 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
