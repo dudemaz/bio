@@ -44,6 +44,7 @@ observer.observe(document.querySelector('.Devskil'));
 observer.observe(document.querySelector('.check'));
 observer.observe(document.querySelector('.projp'));
 observer.observe(document.querySelector('.experienceparagraf'));
+observer.observe(document.querySelector('.habout'));
 
 
 
@@ -58,6 +59,7 @@ observer.observe(document.querySelector('.myskil'));
 observer.observe(document.querySelector('.myint'));
 observer.observe(document.querySelector('.porth'));
 observer.observe(document.querySelector('.experienceh'));
+observer.observe(document.querySelector('.hhabout'));
 
 
 const observer4 = new IntersectionObserver(entries => {
@@ -70,6 +72,7 @@ const observer4 = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('.aboutskil'));
 observer.observe(document.querySelector('.workp'));
 observer.observe(document.querySelector('.experienceparagrafofaboutmyskill'));
+observer.observe(document.querySelector('.paboutme'));
 
 const observer5 = new IntersectionObserver(entries => {
   entries.forEach(entry => {

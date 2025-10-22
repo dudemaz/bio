@@ -83,3 +83,8 @@
   50%  { transform: translateX(8px); }
   100% { transform: translateX(-8px); }
 }
+button:hover{
+    background-color:rgba(22, 100, 234, 1) ;
+    text-shadow:0 5px 15px rgba(0, 0, 0, 0.3) ;
+    border: 1px solid rgba(22, 100, 234, 1);
+}
