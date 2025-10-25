@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="skillsmain.css">
     <link rel="stylesheet" href="maingridblock.css">
     <link rel="stylesheet" href="Experiencepage.css">
+    <link rel="stylesheet" href="blockofcontactandlabel.css">
     <link rel="stylesheet" href="animation.css">
 </head>
 <body>
@@ -30,6 +31,7 @@
 
         <div class="aboutme">
         <h2 class=" habout">ABOUT ME</h2>
+
          <ul class="melogo">
         <li class="imgr"><img src="assets/img/4.png" alt=""></li>
         <div class="meboxforimg"></div>
@@ -221,6 +223,53 @@
       <!-- Карты родитель + дети -->
   </div>
 </div> 
+</div>
+<div class="blockofmycontact">
+  <div class="contactparentoftext">
+    
+    <p class="paragrahopacitycontact">CONTACTS</p>
+    <h1 class="h">Contact With Me</h1>
+    <p class="moretextt">If you are interested in cooperation, I will be glad to receive your proposals and work on joint projects.</p>
+  </div>
+  <div class="parentofblockminiofcontact">
+    <div class="parentofmini">
+
+      <h1 class="moretext">Location</h1>
+      <p class="hh">Moscow, Russia</p>     
+
+      <h1 class="moretext">Email</h1>
+      <p class="hh">john@example.com</p>
+
+      <h1 class="moretext">Phone</h1>
+      <p class="hh">+7 987 123-45-60</p>
+
+    </div>
+  </div>
+<form class="form">
+  <div class="form__group">
+    <label id="lab" for="name" class="req" class="form__label">You Name <span class="Star">*</span></label>
+    <input
+     type="text"
+     id="name"
+     class="form__input"
+     placeholder="Please introduce yourself"
+     required
+     minlength="3"
+     maxlength="16"
+     />
+     <span class="form__description">Minimum number of characters - 3</span>
+  </div>
+    <div class="form__group">
+    <label id="lab" for="email" class="req" class="form__label">Your Email <span class="Star">*</span></label>
+    <input
+     type="text"
+     id="email"
+     class="form__input"
+     placeholder="Please enter your email address"
+     required
+     />
+     <span class="form__description">Address format - test@example.com</span>
+</form>
 </div>
 </section>
     <script src="main.js"></script>

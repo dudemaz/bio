@@ -1,0 +1,85 @@
+.blockofmycontact{/* стиль основного блока */
+    width: 100vw;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 1);
+}
+/* стиль основного блока */
+/* блок с h p и их стили */
+.contactparentoftext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px;
+    margin-left: 30px;
+}
+.paragrahopacitycontact{
+    color: rgba(27, 27, 27, 0.25);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 4px;
+}
+.h{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+     color: rgba(27, 27, 27, 1);
+}
+.moretextt {
+    font-size: 16px;
+    color: rgba(27, 27, 27, 1);
+    line-height: 140%;
+    font-weight: 400;
+    width: 500px;
+}
+/* блок с h p и их стили хотя можно сделать рутт:(*/
+/* cтили для одного маленького блока с моей инфой */
+.parentofblockminiofcontact{
+    width: 420px;
+    height: 320px;
+    background-color: rgba(255, 218, 116, 1);
+    border: 1px solid rgba(255, 218, 116, 1);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-left: 110px;
+}
+.parentofmini{
+    margin-left: 30px;
+}
+.hh{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+     color: rgba(27, 27, 27, 1);
+
+
+}
+.moretext{
+    font-size: 26px;
+    color: rgba(27, 27, 27, 1);
+    line-height: 140%;
+    font-weight: bold;
+}
+/* cтили для одного маленького блока с моей инфой */
+/* cтили для формы и тд */
+.form{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.form__group{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: rgba(27, 27, 27, 1);
+}
+.Star{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    color: rgba(255, 0, 0, 1);
+}
