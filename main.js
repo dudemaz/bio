@@ -30,6 +30,7 @@ observer.observe(document.querySelector('.cardexp:nth-child(1)'));
 observer.observe(document.querySelector('.cardexp:nth-child(2)'));
 observer.observe(document.querySelector('.cardexp:nth-child(3)'));
 observer.observe(document.querySelector('.cardexp:nth-child(4)'));
+observer.observe(document.querySelector('.linehtml'));
 
 
 const observer2 = new IntersectionObserver(entries => {
@@ -40,7 +41,7 @@ const observer2 = new IntersectionObserver(entries => {
   });
 });
 observer.observe(document.querySelector('.skil'));
-observer.observe(document.querySelector('.Devskil'));
+
 observer.observe(document.querySelector('.check'));
 observer.observe(document.querySelector('.projp'));
 observer.observe(document.querySelector('.experienceparagraf'));
@@ -81,4 +82,14 @@ const observer5 = new IntersectionObserver(entries => {
     }
   });
 });
-observer.observe(document.querySelector('.linehtml'));
+document.addEventListener('DOMContentLoaded', function() {
+    // Убираем sticky и fixed у ВСЕХ элементов
+    const allElements = document.querySelectorAll('*');
+    allElements.forEach(el => {
+        const style = window.getComputedStyle(el);
+        if (style.position === 'fixed' || style.position === 'sticky') {
+            el.style.position = 'relative';
+            console.log('Fixed/sticky элемент найден и исправлен:', el);
+        }
+    });
+});

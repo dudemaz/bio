@@ -13,42 +13,46 @@
     <link rel="stylesheet" href="animation.css">
 </head>
 <body>
-    <header >
-
-  <nav class="menuabout">
-    <ul class="menu">
-      <li class="theme">🌙  theme</li>
-      <div class="CENTEROFABOUT">
-      <li>About me</li>
-      <li>Skills</li>
-      <li>Projects</li>
-      <li>Experience</li>
-    </div>
-      <li><button class="contact">Contact</button></li>
-    </ul>
-  </nav>
-
+ <header>
+        <nav class="menuabout">
+            <ul class="menu">
+                <li class="theme">🌙 theme</li>
+                <div class="CENTEROFABOUT">
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Experience</li>
+                </div>
+                <li><button onclick=scrollToSection(contact) class="contact">Contact</button></li>
+            </ul>
+        </nav>
 
         <div class="aboutme">
-        <h2 class=" habout">ABOUT ME</h2>
+            <h2 class="habout">ABOUT ME</h2>
+            
+            <div class="about-content">
+                <div class="text-side">
+                    <h1 class="hhabout">Hi, <span class="iam">I'm Mihail</span>, a <span class="qqqqq">beginner</span> web developer.</h1>
+                    <p class="paboutme">Since 2025, I have been passionate about web technologies, studying at an IT college and studying all modern trends and directions of development of the web industry.</p>
+                    
+                    <div class="social-section">
+                        <p class="check">Check out my</p>
+                        <ul class="myint">
+                            <li class="myintch"><a href="https://github.com/dudemaz"><img src="assets/img/1.jpg" alt="GitHub"></a></li>
+                            <li class="myintch"><a href="https://web.telegram.org/k/#@dsaf45782"><img src="assets/img/2.jpg" alt="Social"></a></li>
+                            <li class="myintch"><a href="#"><img src="assets/img/3.jpg" alt="Social"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
 
-         <ul class="melogo">
-        <li class="imgr"><img src="assets/img/4.png" alt=""></li>
-        <div class="meboxforimg"></div>
-        <li class="meimg"><img src="assets/img/123.jpg" alt="" class="float-x"></li>
-      </ul>
-        <h1 class=" hhabout">Hi, <span class="animate__animated"><span class="iam">I'm Mihail</span>, a <span class="qqqqq">beginner</span> web developer.</span></h1>
-        <p class="  paboutme">Since 2025, I have been passionate about web technologies, studying at an IT college and studying all modern trends and directions of development of the web industry.</p>
-       <p class="check">Check out my</p>
-        <ul class="myint">
-          
-          <li class="myintch"><a href="https://github.com/dudemaz"></a><img src="assets/img/1.jpg" alt=""></li>
-          <li class="myintch"><a href=""></a><img src="assets/img/2.jpg" alt=""></li>
-          <li class="myintch"><a href=""></a><img src="assets/img/3.jpg" alt=""></li>
-        </ul>
- 
-    </div>
-     </header>   
+                <div class="images-side">
+                    <div class="imgr"><img src="assets/img/4.png" alt="Background"></div>
+                    <div class="meimg float-x" ><img src="assets/img/123.jpg" alt="Mihail"></div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main>
       <div class="skills">
@@ -225,7 +229,7 @@
 </div> 
 </div>
 <div class="blockofmycontact">
-  <div class="contactparentoftext">
+  <div id="contact" class="contactparentoftext">
     
     <p class="paragrahopacitycontact">CONTACTS</p>
     <h1 class="h">Contact With Me</h1>
