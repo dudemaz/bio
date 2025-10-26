@@ -34,7 +34,7 @@ observer.observe(document.querySelector('.linehtml'));
 observer.observe(document.querySelector('.parentofblockminiofcontact'));
 observer.observe(document.querySelector('.form__group:nth-child(1)'));
 observer.observe(document.querySelector('.form__group:nth-child(2)'));
-observer.observe(document.querySelector('.fatheroftext'));
+
 
 
 const observer2 = new IntersectionObserver(entries => {
@@ -89,15 +89,4 @@ const observer5 = new IntersectionObserver(entries => {
       entry.target.classList.add('fade-in4');
     }
   });
-});
-document.addEventListener('DOMContentLoaded', function() {
-    // Убираем sticky и fixed у ВСЕХ элементов
-    const allElements = document.querySelectorAll('*');
-    allElements.forEach(el => {
-        const style = window.getComputedStyle(el);
-        if (style.position === 'fixed' || style.position === 'sticky') {
-            el.style.position = 'relative';
-            console.log('Fixed/sticky элемент найден и исправлен:', el);
-        }
-    });
 });

@@ -49,10 +49,12 @@ header{
     display: flex;
     justify-content: center;
     gap: 60px;
+    cursor: pointer;
 }
 
 .theme{
   margin-left: 120px;
+      cursor: pointer;
 }
 
 .contact {
