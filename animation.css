@@ -27,6 +27,10 @@
 .cardexp:nth-child(2){animation-delay: 0.4;}
 .cardexp:nth-child(3){animation-delay: 0.5;}
 .cardexp:nth-child(4){animation-delay: 0.6;}
+.parentofblockminiofcontact{animation-delay: 0.1;}
+.form__group:nth-child(1){animation-delay: 0.2;}
+.form__group:nth-child(2){animation-delay: 0.3;}
+.fatheroftext{animation-delay: 0.4;}
 .card-animated {
     animation: cardinv 0.8s ease-out;
     animation-fill-mode: both;

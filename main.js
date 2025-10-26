@@ -31,6 +31,10 @@ observer.observe(document.querySelector('.cardexp:nth-child(2)'));
 observer.observe(document.querySelector('.cardexp:nth-child(3)'));
 observer.observe(document.querySelector('.cardexp:nth-child(4)'));
 observer.observe(document.querySelector('.linehtml'));
+observer.observe(document.querySelector('.parentofblockminiofcontact'));
+observer.observe(document.querySelector('.form__group:nth-child(1)'));
+observer.observe(document.querySelector('.form__group:nth-child(2)'));
+observer.observe(document.querySelector('.fatheroftext'));
 
 
 const observer2 = new IntersectionObserver(entries => {
@@ -46,6 +50,7 @@ observer.observe(document.querySelector('.check'));
 observer.observe(document.querySelector('.projp'));
 observer.observe(document.querySelector('.experienceparagraf'));
 observer.observe(document.querySelector('.habout'));
+observer.observe(document.querySelector('.paragrahopacitycontact'));
 
 
 
@@ -62,6 +67,7 @@ observer.observe(document.querySelector('.porth'));
 observer.observe(document.querySelector('.experienceh'));
 observer.observe(document.querySelector('.hhabout'));
 
+observer.observe(document.querySelector('.moretextt'));
 
 const observer4 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -74,6 +80,8 @@ observer.observe(document.querySelector('.aboutskil'));
 observer.observe(document.querySelector('.workp'));
 observer.observe(document.querySelector('.experienceparagrafofaboutmyskill'));
 observer.observe(document.querySelector('.paboutme'));
+
+observer.observe(document.querySelector('.h'));
 
 const observer5 = new IntersectionObserver(entries => {
   entries.forEach(entry => {

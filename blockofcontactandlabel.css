@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 80px;
-    margin-left: 30px;
+    margin-left: 110px;
 }
 .paragrahopacitycontact{
     color: rgba(27, 27, 27, 0.25);
@@ -41,7 +41,9 @@
     border: 1px solid rgba(255, 218, 116, 1);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    margin-left: 110px;
+    margin-left: 190px;
+    position: absolute;
+    z-index: 0;
 }
 .parentofmini{
     margin-left: 30px;
@@ -64,16 +66,29 @@
 /* cтили для формы и тд */
 .form{
     width: 800px;
-    height: 700px;
+    height: 400px;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 25px;
+    position: absolute;
+ 
+    margin-left: 800px;
+    z-index: 1;
+    
+
 }
 .form__group{
     display: flex;
     flex-direction: column;
-    font-weight: 700;
-    font-size: 20px;
+    gap: 11px;
+            font-weight: 700;
+    font-size: 23px;
+    line-height: 140%;
+    color: rgba(27, 27, 27, 1);
+}
+.form__label{
+        font-weight: 700;
+    font-size: 23px;
     line-height: 140%;
     color: rgba(27, 27, 27, 1);
 }
@@ -83,3 +98,137 @@
     line-height: 140%;
     color: rgba(255, 0, 0, 1);
 }
+
+.form__input{
+    border: 2px solid white;
+    border-bottom: 2px solid rgba(27, 27, 27, 0.25);
+    border-radius: 5px;
+    width: 370px;
+    
+}
+.form__input::placeholder{
+    color: rgba(27, 27, 27, 0.25);
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 16px;
+    
+}
+.form__description{
+    color: rgba(27, 27, 27, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+}
+.fatheroftext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 800px;
+    margin-top: 110px;
+}
+.form__text{
+    width: 775px;
+    border: 2px solid rgba(27, 27, 27, 0.25);
+    border-radius: 5px;
+    height: 100px;
+}
+.form__text::placeholder{
+    color: rgba(27, 27, 27, 0.25);
+    font-weight: 400;
+    line-height: 140%;
+    padding: 14px;
+    font-size: 16px;
+}
+.fatherofbut{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.sum{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 400;
+    width: 130px;
+    height: 50px;
+    padding: 14px;
+    border: 1px solid white;
+    background-color:rgba(22, 100, 234, 1) ;
+    border-radius: 5px;
+}
+.lastp{
+    width: 350px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 15px;
+
+}
+.bluecolorofspan{
+    color: rgba(22, 100, 234, 1);
+    border: 1px solid white;
+    border-bottom: 1px solid rgba(22, 100, 234, 1);
+    font-weight: 700;
+}
+/* cтили для формы и тд */
+/* Стилизация футера:) */
+footer{
+    background-color: rgba(37, 37, 37, 1);
+    width: 100vw;
+    height: 350px;
+}
+.fatheroftexthh{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    flex-direction: row;
+}
+.childs{
+    list-style: none    ;
+    margin-top: 60px;
+    display: flex;
+gap: 55px;
+       font-weight: 400;
+       font-size: 20px; 
+}
+.bord{
+    border: 1px solid rgba(37, 37, 37, 1);
+    border-right: 1px solid rgba(64, 64, 64, 1);
+    width: 130px;
+}
+.fatherofblockminisecond{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-top: 40px;
+    gap: 0;
+    
+}
+.HEXLET{
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.4);
+}
+.projecth{
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 10px;
+    line-height: 140%;
+    font-weight: 400;
+    width: 230px;
+    text-align: center;
+}
+.backtotop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.backto{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 105%;
+    color: rgba(255, 218, 116, 1);
+}
+/* Стилизация футера:) */
