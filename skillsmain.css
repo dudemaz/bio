@@ -35,6 +35,11 @@ main{
     letter-spacing: 0%;
     font-weight: 400;
 }
+.link{
+    text-decoration: none;
+    outline: none;
+    color: none;
+}
 .boxofgrid{
     display: flex;
     width:300px;

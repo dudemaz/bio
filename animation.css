@@ -35,10 +35,25 @@
     animation: cardinv 0.8s ease-out;
     animation-fill-mode: both;
 }
-.card:hover{
-    transform: translateY(-3px) scale(1)!important;
+.boxofgrid:hover .card{
+            filter: blur(2px);
+            opacity: 0.7;
+            transform: scale(0.95);
+}
+
+.boxofgrid:hover .card:hover{
+
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)!important;
     border-color: rgba(255, 255, 255, 0.2)!important;
+    box-shadow:0 4px 10px rgba(0, 123, 255, 0.6)!important;
+transform:translateY(0) !important;
+color: var(--light-blue) !important;
+box-shadow:0 8px 20px rgba(8, 4, 250, 0.4) !important;
+transform: translateY(-2px) !important;
+filter: blur(0);
+opacity: 1;
+
+
 }
 @keyframes cardinv {
     0% {
