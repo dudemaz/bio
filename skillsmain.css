@@ -1,5 +1,6 @@
-main{
-    width: 100%;
+
+.skilblock{
+        width: 100%;
     height: 940px;
     background-color: rgba(255, 218, 116, 1);
 }
@@ -29,7 +30,7 @@ main{
     width: 400px;
     text-align:  center;
 
-    
+    color: rgba(27, 27, 27, 1);
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0%;
@@ -38,7 +39,6 @@ main{
 .link{
     text-decoration: none;
     outline: none;
-    color: none;
 }
 .boxofgrid{
     display: flex;
@@ -86,7 +86,9 @@ main{
     width: 60px;
     height: 30px;
 }
-
+.anim{
+    color: rgba(27, 27, 27, 1);
+}
 
 
 .linehtml{
@@ -94,7 +96,7 @@ main{
     flex-direction: column;
     width: 500px;
     height: 400px;
-
+    color: rgba(27, 27, 27, 1);
     z-index: 1;
     margin-left: 130px;
     
@@ -108,6 +110,7 @@ main{
     
 }
 .htmlline{
+    
     width: 400px;
     height: 5px;
     border: 1px solid black;
