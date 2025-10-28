@@ -1,6 +1,12 @@
+:root{
+ --transition-time: 2.5s;
+}
 body.dark-theme {
     background-color: rgba(48, 48, 48, 1);
     color: white;
+    transition: 
+    background-color var(--transition-time) ease,
+    color var(--transition-time) ease;
 }
 body.dark-theme .text-side p { 
     color: white;
