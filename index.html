@@ -15,24 +15,19 @@
 </head>
 <body>
  <header>
-        <nav id="navv" class="menuabout">
-            <ul class="menu">
-                <li id="btn" class="theme">🌙 theme</li>
-                <div class="CENTEROFABOUT">
-                  <a class="link" href="">
-                    <li>About me</li>
-                  </a> <a class="link" href="#skilll">
-                    <li>Skills</li>
-                  </a> <a class="link" href="#sect">
-                    <li>Projects</li>
-                  </a> <a class="link" href="#exppage">
-                    <li>Experience</li></a>
-                </div>
-                <a href="#contactblock"><button  class="contact">Contact</button></a>
-            </ul>
-        </nav>
-
-        <div class="aboutme">
+       <nav id="navv" class="menuabout">
+           <ul class="menu">
+               <li id="btn" class="theme">🌙 theme</li>
+               <li class="CENTEROFABOUT">
+                 <a class="link" href="#about">About me</a>
+                 <a class="link" href="#skilll">Skills</a>
+                 <a class="link" href="#sect">Projects</a>
+                 <a class="link" href="#exppage">Experience</a>
+               </li>
+               <li><a href="#contactblock" class="contact">Contact</a></li>
+           </ul>
+       </nav>
+       <div class="aboutme" id="about">
             <h2 class="habout">ABOUT ME</h2>
             
             <div class="about-content">
@@ -43,23 +38,25 @@
                     <div class="social-section">
                         <p class="check">Check out my</p>
                         <ul class="myint">
-                            <li class="myintch"><a href="https://github.com/dudemaz"><img src="assets/img/Vector.png"GitHub></a></li>
-                            <li class="myintch"><a href="https://web.telegram.org/k/#@dsaf45782"><img src="assets/img/Vector (1).png"Social></a></li>
-                            <li class="myintch"><a href="#"><img src="assets/img/Vector (2).png"Social></a></li>
+                            <li class="myintch"><a href="https://github.com/dudemaz"><img src="assets/img/Vector.png" alt="GitHub"></a></li>
+                            <li class="myintch"><a href="https://web.telegram.org/k/#@dsaf45782"><img src="assets/img/Vector (1).png" alt="Telegram"></a></li>
+                            <li class="myintch"><a href="#"><img src="assets/img/Vector (2).png" alt="Social"></a></li>
                         </ul>
                     </div>
                 </div>
                 
-
+                
                 <div class="images-side">
                     <div class="imgr"><img src="assets/img/4.png" alt="Background"></div>
                     <div class="meimg float-x" ><img src="assets/jpg/123.jpg" alt="Mihail"></div>
                 </div>
             </div>
         </div>
-    </header>
+   </header>
 
-    <main id="skilll" >
+   <main>
+
+   <section id="skilll" >
       <div class="skilblock">
       <div class="skills">
         <p  class="skil">
@@ -151,7 +148,7 @@
 </div>
 </div>
 </div>
-    </main>
+   </section>
 
 
 <section id="sect">
@@ -203,7 +200,7 @@
 </div>
 </div>
 </div>
-<div id="exppage" class="Experiencepage">
+<section id="exppage" class="Experiencepage">
   <div class="Epxerienceabout">
     <p class="experienceparagraf">EXPERIENCE</p>
     <h1 class="experienceh">Experience</h1>
@@ -232,9 +229,8 @@
     <p class="yearincard">2026</p>
       <!-- Карты родитель + дети -->
   </div>
-</div> 
-</div>
-<div id="contactblock" class="blockofmycontact">
+</section> 
+<section id="contactblock" class="blockofmycontact">
   <div id="contact" class="contactparentoftext">
     
     <p class="paragrahopacitycontact">CONTACTS</p>
@@ -257,10 +253,11 @@
   </div>
 <form class="form">
   <div class="form__group">
-    <label id="lab" for="name" class="req" class="form__label">You Name <span class="Star">*</span></label>
+    <label for="name" class="form__label req">You Name <span class="Star">*</span></label>
     <input
      type="text"
      id="name"
+     name="name"
      class="form__input"
      placeholder="Please introduce yourself"
      required
@@ -269,35 +266,40 @@
      />
      <span class="form__description">Minimum number of characters - 3</span>
   </div>
-    <div class="form__group">
-    <label id="lab" for="email" class="req" class="form__label">Your Email <span class="Star">*</span></label>
+  <div class="form__group">
+    <label for="email" class="form__label req">Your Email <span class="Star">*</span></label>
     <input
-     type="text"
+     type="email"
      id="email"
+     name="email"
      class="form__input"
      placeholder="Please enter your email address"
      required
      />
      <span class="form__description">Address format - test@example.com</span>
-</form></div>
-<div class="fatheroftext">
-<label for="comment" class="form__label"> Message <span class="Star">*</span> </label>
-<textarea name="" id="" class="form__text" placeholder="Please enter your message"></textarea>
-<div class="fatherofbut">
-  <button class="wave-button">Submit</button>
-  <p class="lastp">By clicking the submit button You confirm my consent to the processing of <span class="bluecolorofspan">personal data</span></p>
-</div>
-</div>
+  </div>
+  <div class="fatheroftext">
+    <label for="comment" class="form__label"> Message <span class="Star">*</span> </label>
+    <textarea id="comment" name="comment" class="form__text" placeholder="Please enter your message" required></textarea>
+    <div class="fatherofbut">
+      <button type="submit" class="wave-button">Submit</button>
+      <p class="lastp">By clicking the submit button You confirm my consent to the processing of <span class="bluecolorofspan">personal data</span></p>
+    </div>
+  </div>
+
+</form>
 
 </section>
+  
+  </main>
 <footer>
   <div class="fatheroftexthh">
-<div class="childs">
-      <li class="bord " >About Me</li>
+<ul class="childs">
+      <li class="bord ">About Me</li>
       <li class="bord">Skills</li>
       <li class="bord">Projects</li>
       <li>Experience</li>
-</div>
+</ul>
   </div>
   <div class="fatherofblockminisecond">
     <div class="parg">

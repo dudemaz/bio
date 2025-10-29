@@ -44,6 +44,9 @@
     margin-left: 190px;
     position: absolute;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .parentofmini{
     margin-left: 30px;
@@ -65,15 +68,16 @@
 /* cтили для одного маленького блока с моей инфой */
 /* cтили для формы и тд */
 .form{
-    width: 800px;
-    height: 400px;
+    width: 720px;
+    height: 320px;
     display: flex;
     flex-direction: row;
-    gap: 25px;
-    position: absolute;
- 
-    margin-left: 800px;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    margin-left: 830px;
     z-index: 1;
+    align-items: flex-start;
     
 
 }
@@ -85,12 +89,14 @@
     font-size: 23px;
     line-height: 140%;
     color: rgba(27, 27, 27, 1);
+    align-items: flex-start;
 }
 .form__label{
         font-weight: 700;
     font-size: 23px;
     line-height: 140%;
     color: rgba(27, 27, 27, 1);
+    text-align: left;
 }
 .Star{
     font-size: 20px;
@@ -103,7 +109,7 @@
     border: 2px solid white;
     border-bottom: 2px solid rgba(27, 27, 27, 0.25);
     border-radius: 5px;
-    width: 370px;
+    width: 320px;
     
 }
 .form__input::placeholder{
@@ -118,6 +124,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 140%;
+    text-align: left;
 }
 .fatheroftext{
     display: flex;
@@ -128,9 +135,16 @@
     margin-left: 800px;
     margin-top: 110px;
 }
+
+.form .fatheroftext{
+    margin-left: 0;
+    margin-top: 20px;
+    align-items: flex-start;
+    text-align: left;
+}
 .form__text{
     cursor: pointer;
-    width: 775px;
+    width: 700px;
     border: 2px solid rgba(27, 27, 27, 0.25);
     border-radius: 5px;
     height: 100px;
@@ -201,6 +215,7 @@ gap: 55px;
     border: 1px solid rgba(37, 37, 37, 1);
     border-right: 1px solid rgba(64, 64, 64, 1);
     width: 130px;
+    
 }
 .fatherofblockminisecond{
     display: flex;
@@ -208,6 +223,7 @@ gap: 55px;
     align-items: center ;
     margin-top: 40px;
     gap: 0;
+    
     
 }
 .HEXLET{
@@ -222,6 +238,7 @@ gap: 55px;
     font-weight: 400;
     width: 230px;
     text-align: center;
+    
 }
 .backtotop{
     display: flex;
