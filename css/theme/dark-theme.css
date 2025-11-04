@@ -1,0 +1,72 @@
+:root{
+  --transition-time: 2.5s;
+}
+
+body.dark-theme {
+  background-color: var(--color-surface-dark);
+  color: var(--color-white);
+  transition: 
+    background-color var(--transition-time) ease,
+    color var(--transition-time) ease;
+}
+body.dark-theme .text-side p { color: var(--color-white); }
+body.dark-theme .aboutme h2 { color: rgba(255, 255, 255 ,0.25); }
+body.dark-theme .menuabout li { color: var(--color-white); }
+body.dark-theme .skilblock{ background-color: rgba(37, 37, 37, 1); color: var(--color-white); }
+/* skills section specifics */
+body.dark-theme .skilblock .card{
+  background-color: var(--color-surface-dark);
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+body.dark-theme .skilblock .anim,
+body.dark-theme .skilblock .Devskil,
+body.dark-theme .skilblock .aboutskil,
+body.dark-theme .skilblock .myskil{
+  color: var(--color-white);
+}
+
+/* lines */
+body.dark-theme .cssp{ background: linear-gradient(90deg, rgba(43, 0, 255, 0.7) 65%, rgba(255,255,255,1) 100%); }
+body.dark-theme .jslineborder{ background: linear-gradient(90deg, rgba(43, 0, 255, 0.7) 45%, rgba(255,255,255,1) 100%); }
+body.dark-theme .htmlline{ background: linear-gradient(90deg, rgba(43, 0, 255, 0.7) 65%, rgba(255,255,255,1) 100%); }
+
+body.dark-theme .skilblock p { color: var(--color-white); }
+body.dark-theme .skilblock h1{ color: var(--color-white); }
+body.dark-theme .myintch { background-color: var(--color-primary); border: 1px solid var(--color-surface-dark); }
+body.dark-theme .sectofgrid { background-color: var(--color-surface-dark); color: var(--color-white); }
+
+/* experience */
+body.dark-theme .Experiencepage   { background-color: rgba(37, 37, 37, 1); color: var(--color-white); }
+body.dark-theme .Experiencepage h1  { background-color: rgba(37, 37, 37, 1); color: var(--color-white); }
+body.dark-theme .Experiencepage p    { background-color: rgba(37, 37, 37, 1); color: var(--color-white); }
+body.dark-theme .Experiencepage .cardexp   { background-color: rgba(37, 37, 37, 1); color: var(--color-white); }
+body.dark-theme .Experiencepage .yearincard   { color: var(--color-primary); }
+
+/* contact */
+body.dark-theme .blockofmycontact { background-color: var(--color-surface-dark); color: var(--color-white); }
+body.dark-theme .blockofmycontact .form__input { background-color: var(--color-surface-dark); color: var(--color-white); }
+body.dark-theme .parentofblockminiofcontact{ background-color: rgba(37, 37, 37, 1); border: 2px solid rgba(37, 37, 37, 1); }
+body.dark-theme .blockofmycontact h1{ color: var(--color-white); }
+body.dark-theme .blockofmycontact p{ color: var(--color-white); }
+body.dark-theme .form__label{ color: var(--color-white); }
+body.dark-theme .req{ color: var(--color-white); }
+body.dark-theme .form__input{ background-color: var(--color-surface-dark); border: 2px solid var(--color-surface-dark); border-bottom: 2px solid rgba(255, 255, 255, 0.25); }
+body.dark-theme ::placeholder{ color: rgba(255, 255, 255, 0.25); }
+body.dark-theme .bluecolorofspan{ border: 1px solid var(--color-surface-dark); }
+body.dark-theme .form__description{ color: var(--color-white); }
+body.dark-theme .form__text{ border: 2px solid rgba(255, 255, 255, 0.25); color: var(--color-white); background-color: var(--color-surface-dark); }
+
+/* footer */
+body.dark-theme .backto{ color: var(--color-primary); }
+
+/* buttons: black text in dark theme */
+body.dark-theme button{ color: var(--color-black); }
+body.dark-theme .wave-button{ color: var(--color-black); }
+body.dark-theme .sum{ color: var(--color-black); }
+body.dark-theme .readmore,
+body.dark-theme .readmorer,
+body.dark-theme .readmorerr,
+body.dark-theme .readmores{ color: var(--color-black); }
+
+

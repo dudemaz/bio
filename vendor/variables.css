@@ -1,0 +1,42 @@
+:root {
+	--color-primary: #1664EA;
+	--color-secondary: #007bff;
+	--color-accent: #FFDA74;
+	--color-text: #1B1B1B;
+	--color-muted: rgba(27, 27, 27, 0.25);
+	--color-white: #FFFFFF;
+	--color-black: #000000;
+	--color-surface: #FFFFFF;
+	--color-surface-dark: #303030;
+}
+
+
+.c-text-primary { color: var(--color-primary) !important; }
+.c-text-secondary { color: var(--color-secondary) !important; }
+.c-text-accent { color: var(--color-accent) !important; }
+.c-text-muted { color: var(--color-muted) !important; }
+.c-text-white { color: var(--color-white) !important; }
+.c-text-black { color: var(--color-black) !important; }
+
+
+.c-bg-primary { background-color: var(--color-primary) !important; }
+.c-bg-secondary { background-color: var(--color-secondary) !important; }
+.c-bg-accent { background-color: var(--color-accent) !important; }
+.c-bg-white { background-color: var(--color-white) !important; }
+.c-bg-black { background-color: var(--color-black) !important; }
+.c-bg-surface { background-color: var(--color-surface) !important; }
+
+
+.c-border-primary { border-color: var(--color-primary) !important; }
+.c-border-secondary { border-color: var(--color-secondary) !important; }
+.c-border-accent { border-color: var(--color-accent) !important; }
+.c-border-muted { border-color: var(--color-muted) !important; }
+.c-border-white { border-color: var(--color-white) !important; }
+.c-border-black { border-color: var(--color-black) !important; }
+
+
+body.dark-theme {
+	--color-text: #FFFFFF;
+	--color-surface: var(--color-surface-dark);
+}
+

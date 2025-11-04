@@ -1,0 +1,172 @@
+.sectofgrid{
+    width: 1440px;
+    height: 980px;
+    padding: 80px;
+    background-color: var(--color-surface);
+}
+.maingridblock{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 118px
+}
+.projp{
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 5px;
+    color: var(--color-muted);
+}
+.porth{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+.workp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: var(--color-text);
+}
+.flexofgrid{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    gap: 15px;
+    margin-left: 60px;
+    justify-content: center;
+}
+.parengrid{
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: repeat(4, 290px);
+    gap: 15px;
+}
+.parentgridd{
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: repeat(4, 220px);
+    gap: 15px;
+}
+.gridcard-big{
+  background-image: url("../../assets/img/8f89902f93e934baafb88ae64cade47180a4fde3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 2;
+  grid-row: span 1;
+  min-height: 200px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  max-height: 320px;
+}
+.griidcard{ 
+  grid-row: span 2;
+  background-image:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+   url(../../assets/img/861369d066c86e8378fceb08a79456da01e373d4.png);
+  background-size: cover;
+  padding: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  max-height: 450.00006103515625px;
+}
+.griiidcard{
+  grid-row: span 2;
+  background-image:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+   url(../../assets/img/1acf0f4f871427105669f7a32ec825da6952e6fb.png);
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  border: 1px solid transparent;
+  background-position: left;
+  border-radius: 10px;
+  max-height: 450.00006103515625px;
+}
+.gridcardd{
+  grid-row: span 2;
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+   url(../../assets/img/05a7cce6abe7d8e456e00aaba1801d17295054ee.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  max-height: 450.00006103515625px;
+}
+.griidcardd{
+  grid-row: span 2;
+  background-image:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+   url(../../assets/img/05a7cce6abe7d8e456e00aaba1801d17295054ee.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  padding: 30px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  max-height: 450.00006103515625px;
+}
+.griiidcardd-big{
+  background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../../assets/img/e29fb4f0762150350e9f9d1f696d97e729bca333.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  grid-column: span 2;
+  padding: 30px;
+  grid-row: span 1;
+  min-height: 290px;
+  max-height: 320px;
+  border-radius: 10px;
+  margin-bottom: 122px;
+}
+.biggrid{ padding: 30px; }
+.cat{
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.cool{
+  color: var(--color-white);
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 2px;
+  font-size: 30px;
+  width: 240px;
+}
+.readmore,
+.readmorer,
+.readmorerr,
+.readmores{
+  width: 130px;
+  height: 52px;
+  padding: 14px;
+  border: 1px solid var(--color-white);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: var(--color-text);
+  white-space: nowrap;
+  background-color: var(--color-white);
+}
+.readmore{ margin-top: 35px; }
+.readmorer{ margin-top: 200px; }
+.readmorerr{ margin-top: 250px; }
+.readmores{ margin-top: 86px; }
+
+

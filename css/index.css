@@ -1,0 +1,20 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/variables.css");
+
+/* base */
+@import url("./base/scroll.css");
+@import url("./base/animation.css");
+
+/* blocks */
+@import url("./blocks/header/header.css");
+
+/* pages */
+@import url("./pages/skills.css");
+@import url("./pages/projects.css");
+@import url("./pages/experience.css");
+@import url("./pages/contact.css");
+
+/* theme */
+@import url("./theme/dark-theme.css");
+
+

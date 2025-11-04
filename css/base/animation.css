@@ -1,0 +1,77 @@
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.15s; }
+.card:nth-child(3) { animation-delay: 0.2s; }
+.card:nth-child(4) { animation-delay: 0.25s; }
+.card:nth-child(5) { animation-delay: 0.3s; }
+.card:nth-child(6) { animation-delay: 0.35s; }
+.card:nth-child(7) { animation-delay: 0.4s; }
+.card:nth-child(8) { animation-delay: 0.45s; }
+.card:nth-child(9) { animation-delay: 0.5s; }
+.card:nth-child(10) { animation-delay: 0.55s; }
+.card:nth-child(11) { animation-delay: 0.6s; }
+.card:nth-child(12) { animation-delay: 0.65s; }
+.card:nth-child(13) { animation-delay: 0.7s; }
+.card:nth-child(14) { animation-delay: 0.75s; }
+.card:nth-child(15) { animation-delay: 0.73s; }
+.anim:nth-child(1) { animation-delay: 0.1s; }
+.anim:nth-child(2) { animation-delay: 0.15s; }
+.anim:nth-child(3) { animation-delay: 0.2s; }
+.gridcard-big{animation-delay: 0.1s;}
+.gridcardd{animation-delay: 0.15s;}
+.griidcardd{animation-delay: 0.2s;}
+.griidcard{animation-delay: 0.25s;}
+.griiidcard{animation-delay: 0.3s;}
+.griiidcardd-big{animation-delay: 0.35s;}
+.cardexp:nth-child(1){animation-delay: 0.1s;}
+.cardexp:nth-child(2){animation-delay: 0.4s;}
+.cardexp:nth-child(3){animation-delay: 0.5s;}
+.cardexp:nth-child(4){animation-delay: 0.6s;}
+.parentofblockminiofcontact{animation-delay: 0.1s;}
+.form__group:nth-child(1){animation-delay: 0.2s;}
+.form__group:nth-child(2){animation-delay: 0.3s;}
+.fatheroftext{animation-delay: 0.4s;}
+.card-animated { animation: cardinv 0.8s ease-out; animation-fill-mode: both; }
+.boxofgrid:hover .card{ filter: blur(2px); opacity: 0.7; transform: scale(0.95); }
+.menu li:hover{
+  transform: translateY(-5px) scale(1);
+  border-color: rgba(0, 123, 255, 0.6);
+  background-color: none;
+  border: 1px solid rgba(0, 123, 255, 0.6);
+  border-radius: 5px;
+  box-shadow:0 4px 10px rgba(0, 123, 255, 0.6);
+  transition: 0.2s;
+}
+.boxofgrid:hover .card:hover{
+  border-color: rgba(255, 255, 255, 0.2)!important;
+  box-shadow: 0 8px 20px rgba(8, 4, 250, 0.4) !important;
+  transform: translateY(-2px) !important;
+  color: var(--color-secondary) !important;
+  filter: blur(0);
+  opacity: 1;
+}
+@keyframes cardinv {
+  0% { opacity: 0; transform: scale(0.7) translateY(20px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes cardAppear {
+  from { opacity: 0; transform: translateY(10px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.fade-in1{ opacity: 0; transform: translateX(40px); animation: fadeInUp 1.3s ease-out forwards; }
+.fade-in2{ opacity: 0; transform: translateX(40px); animation: fadeInUp 1.5s ease-out forwards; }
+.fade-in3{ opacity: 0; transform: translateY(40px); animation: fadeInUp 1.7s ease-out forwards; }
+.fade-in4{ opacity: 0; transform: translateY(40px); animation: fadeInUp 3s ease-out forwards; }
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+.float-x { display: inline-block; animation: floatX 5s ease-in-out infinite; }
+@keyframes floatX { 0%{ transform: translateX(-8px); } 50%{ transform: translateX(8px); } 100%{ transform: translateX(-8px); } }
+button {
+  display: inline-block; position: relative; color: var(--color-secondary);
+  background: #e0f0ff; border: 2px solid var(--color-secondary); border-radius: 6px; cursor: pointer;
+  overflow: hidden; z-index: 1; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: all 0.4s ease-out; padding: 10px 20px; 
+}
+button::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 0; background-color: var(--color-secondary); transition: height 0.4s ease-out; z-index: -1; }
+button:hover { color: #e0f0ff; box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4); transform: translateY(-2px); }
+button:hover::before { height: 100%; }
+button:active { box-shadow: 0 4px 10px rgba(0, 123, 255, 0.6); transform: translateY(0); }
+
+
